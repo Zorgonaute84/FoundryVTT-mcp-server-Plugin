@@ -1,0 +1,54 @@
+/* Foundry MCP Plugin — Status Badge Styles */
+
+.fred-mcp-status-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 0.85em;
+  vertical-align: middle;
+}
+
+.fred-mcp-status-connected {
+  background: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.fred-mcp-status-connecting {
+  background: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
+}
+
+.fred-mcp-status-error {
+  background: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+.fred-mcp-status-disconnected {
+  background: #e2e3e5;
+  color: #383d41;
+  border: 1px solid #d6d8db;
+}
+
+.fred-mcp-settings-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.fred-mcp-reconnect-btn {
+  font-size: 0.8em;
+  padding: 2px 8px;
+  cursor: pointer;
+}
+
+.fred-mcp-server-url {
+  font-size: 0.8em;
+  color: #555;
+  font-family: monospace;
+  margin-top: 2px;
+}

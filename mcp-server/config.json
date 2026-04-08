@@ -1,0 +1,27 @@
+{
+  "_comment": "Configuration du serveur MCP Foundry (version NAS/hébergée).",
+
+  "http": {
+    "host": "0.0.0.0",
+    "_host_comment": "Interface d'écoute. 0.0.0.0 = toutes les interfaces. Variable d'env: HTTP_HOST",
+    "port": 3001,
+    "_port_comment": "Port HTTP du serveur (MCP + WebSocket partagent ce port). Variable d'env: HTTP_PORT"
+  },
+
+  "security": {
+    "mcpApiKey": "",
+    "_mcpApiKey_comment": "Clé Bearer pour sécuriser l'accès MCP de Claude. Ex: 'mon-secret'. Variable d'env: MCP_API_KEY",
+    "wsApiKey": "",
+    "_wsApiKey_comment": "Clé pour sécuriser la connexion WebSocket du plugin Foundry. Variable d'env: WS_API_KEY"
+  },
+
+  "timeouts": {
+    "queryTimeoutMs": 30000,
+    "_comment": "Délai max pour une réponse du plugin Foundry (ms). Variable d'env: QUERY_TIMEOUT_MS"
+  },
+
+  "logging": {
+    "level": "info",
+    "_comment": "Niveau de log: debug, info, warn, error. Variable d'env: LOG_LEVEL"
+  }
+}

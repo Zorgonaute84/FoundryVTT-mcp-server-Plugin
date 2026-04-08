@@ -1,0 +1,25 @@
+{
+  "name": "foundry-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for FoundryVTT — HTTP transport, hostable on NAS, VPS or any remote server.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "author": "Zorgonaute84",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zorgonaute84/foundry-mcp"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.1",
+    "ws": "^8.18.0",
+    "zod": "^3.24.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}

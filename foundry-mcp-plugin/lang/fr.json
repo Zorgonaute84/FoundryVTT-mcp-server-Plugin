@@ -1,0 +1,22 @@
+{
+  "FMCP.Settings.ServerHost.Name": "Hôte du serveur MCP",
+  "FMCP.Settings.ServerHost.Hint": "Adresse du serveur MCP (ex: foundry.mondomaine.com ou 192.168.1.100)",
+  "FMCP.Settings.ServerPort.Name": "Port du serveur MCP",
+  "FMCP.Settings.ServerPort.Hint": "Port HTTP/WebSocket du serveur MCP (ex: 3001)",
+  "FMCP.Settings.UseSSL.Name": "Utiliser SSL (WSS)",
+  "FMCP.Settings.UseSSL.Hint": "Activer pour utiliser une connexion sécurisée (wss://). Requis si Foundry est en HTTPS.",
+  "FMCP.Settings.ApiKey.Name": "Clé API WebSocket",
+  "FMCP.Settings.ApiKey.Hint": "Clé secrète pour sécuriser la connexion WebSocket (doit correspondre à WS_API_KEY sur le serveur). Laisser vide si non configuré.",
+  "FMCP.Notifications.Connected": "Foundry MCP : Connecté au serveur MCP.",
+  "FMCP.Notifications.Disconnected": "Foundry MCP : Déconnecté du serveur MCP.",
+  "FMCP.Notifications.Reconnecting": "Foundry MCP : Tentative de reconnexion ({current}/{max})...",
+  "FMCP.Notifications.Failed": "Foundry MCP : Impossible de se connecter au serveur MCP après {max} tentatives.",
+  "FMCP.Notifications.GMOnly": "Foundry MCP : Ce module est réservé au MJ.",
+  "FMCP.Status.Connected": "Connecté",
+  "FMCP.Status.Connecting": "Connexion...",
+  "FMCP.Status.Disconnected": "Déconnecté",
+  "FMCP.Status.Error": "Erreur",
+  "FMCP.UI.StatusLabel": "Statut MCP",
+  "FMCP.UI.ReconnectButton": "Reconnecter",
+  "FMCP.UI.ServerUrl": "URL du serveur"
+}
